@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="26ffab19-93d0-443d-a8af-a366e4f84aa5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/yoll/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingBasics/AssertionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingBasics/MyFirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingBasics/TestNgBetterApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestingBasics/intro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/BadApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/BestBuyPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/Locators.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/MultipleElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/SauceDemoPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/SwagLabsHomeWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/Table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/TablePractice/DynamicTablesHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/TablePractice/TablePractice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/TablePractice/TablePracticeHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/TablePractice/html.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/VerifyElementAttributes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/VerifyIfDisplayedAndEnabled.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/VerifyTabVisualFeedbackHomework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module3/CustomDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/module3/DropdownHomework1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/test/java/TestingBasics/PracticeIsLogoDisplayed.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eeseJYWW7WbvnEaanBO9FjN4ri" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BadApproach.executor": "Run",
+    "Application.BestBuyPractice.executor": "Run",
+    "Application.CustomDropdown.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MyFirstTest.executor": "Run",
+    "Application.PracticeIsLogoDisplayed.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AssertionTest.executor": "Run",
+    "TestNG.AssertionTest.verifyCondition.executor": "Run",
+    "TestNG.AssertionTest.verifyDbConnection.executor": "Run",
+    "TestNG.TestNgBetterApproach.executor": "Run",
+    "TestNG.TestNgBetterApproach.verifyLogoIsDisplayed.executor": "Run",
+    "TestNG.TestNgBetterApproach.verifyPageTitle.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/vafao/Selenium/Projects/Maven_Selenium_Demo_Git/src/test/java",
+    "onboarding.tips.debug.path": "C:/Users/vafao/Selenium/Projects/Maven_Selenium_Demo_Git/src/main/java/io/yoll/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\java" />
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\TestingBasics\resources" />
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\TestingBasics" />
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test" />
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\java\module2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\java" />
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\TestingBasics\resources" />
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\TestingBasics" />
+      <recent name="C:\Users\vafao\Selenium\Projects\Maven_Selenium_Demo_Git\src\test\java\module2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AssertionTest">
+    <configuration name="BestBuyPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module2.BestBuyPractice" />
+      <module name="Maven_Selenium_Demo_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Selenium_Demo_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestingBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestingBasics" />
+      <option name="MAIN_CLASS_NAME" value="TestingBasics.AssertionTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionTest.verifyCondition" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Selenium_Demo_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestingBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestingBasics" />
+      <option name="MAIN_CLASS_NAME" value="TestingBasics.AssertionTest" />
+      <option name="METHOD_NAME" value="verifyCondition" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionTest.verifyDbConnection" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Selenium_Demo_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestingBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestingBasics" />
+      <option name="MAIN_CLASS_NAME" value="TestingBasics.AssertionTest" />
+      <option name="METHOD_NAME" value="verifyDbConnection" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestNgBetterApproach.verifyLogoIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven_Selenium_Demo_Git" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestingBasics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestingBasics" />
+      <option name="MAIN_CLASS_NAME" value="TestingBasics.TestNgBetterApproach" />
+      <option name="METHOD_NAME" value="verifyLogoIsDisplayed" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AssertionTest" />
+        <item itemvalue="TestNG.TestNgBetterApproach.verifyLogoIsDisplayed" />
+        <item itemvalue="Application.BestBuyPractice" />
+        <item itemvalue="TestNG.AssertionTest.verifyCondition" />
+        <item itemvalue="TestNG.AssertionTest.verifyDbConnection" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26ffab19-93d0-443d-a8af-a366e4f84aa5" name="Changes" comment="" />
+      <created>1712276476162</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712276476162</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/io/yoll/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
