@@ -1,0 +1,32 @@
+Shopping list.
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+            String yesNo;
+String listOfItems="";
+double totalPrice=0;
+int i=1;
+do{
+System.out.println("Enter Item" +(i)+ " and its price: ");
+String item=scan.nextLine();
+double price=scan.nextDouble();
+scan.nextLine();
+
+System.out.println("Add one more item?");
+yesNo=scan.nextLine();
+
+               listOfItems += "Item" + i + ": " + item + " Price: " + price + ", ";
+               totalPrice += price;
+               i++;
+
+} while (!yesNo.equalsIgnoreCase("no") && i<=10);
+ 
+System.out.println(listOfItems);
+System.out.println("Total price: " + totalPrice);
+
+       
+    }
+}
