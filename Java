@@ -30,3 +30,164 @@ System.out.println("Total price: " + totalPrice);
        
     }
 }
+ "cat" and "dog" 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        String word = scan.next();
+          String RestOfWordDog=word.replace("dog","");
+      String RestOfWordCat=word.replace("cat","");
+      int a =word.length()-RestOfWordDog.length()/3;
+      int b =word.length()-RestOfWordCat.length()/3;
+      if (a==b) {
+            System.out.println(true);
+      }else {
+     System.out.println(false);
+      }
+       
+    }
+}
+Route A-B-C-D
+
+import java.util.*;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scan = new Scanner(System.in);
+    String start = scan.next();
+    String end = scan.next();
+    int k =0;
+String a="";
+String b="";
+String c="";
+ 
+   String[]route ={"down","left","up","right","down","left","up","right","down","left"};
+   for (k =0; k<4;k++) {
+   
+   
+    a= route[k] +" > "+ route[k+1] + " > "+route[k+2]+": "+end+" found";
+    b= route[k] +" > "+ route[k+1]+": "+end+" found";
+    c= route[k]+": "+end+" found";
+   }
+   
+   if (start.equals("A") && end.equals("D")){
+    System.out.println(a);
+   }else if (start.equals("A") && end.equals("C")){
+    System.out.println(b);
+   }else if (start.equals("A") && end.equals("B")){
+    System.out.println(c);
+   }else if(start.equals(end)) {
+    System.out.println(end +" found");
+   }
+    for (k =1; k<5;k++) {
+   
+       
+        a= route[k] +" > "+ route[k+1] + " > "+route[k+2]+": "+end+" found";
+        b= route[k] +" > "+ route[k+1]+": "+end+" found";
+        c= route[k]+": "+end+" found";
+       }
+       
+       if (start.equals("B") && end.equals("A")){
+        System.out.println(a);
+       }else if (start.equals("B") && end.equals("D")){
+        System.out.println(b);
+       }else if (start.equals("B") && end.equals("C")){
+        System.out.println(c);
+       }
+       for (k =2; k<6;k++) {
+   
+       
+        a= route[k] +" > "+ route[k+1] + " > "+route[k+2]+": "+end+" found";
+        b= route[k] +" > "+ route[k+1]+": "+end+" found";
+        c= route[k]+": "+end+" found";
+       }
+       
+       if (start.equals("C") && end.equals("B")){
+        System.out.println(a);
+       }else if (start.equals("C") && end.equals("A")){
+        System.out.println(b);
+       }else if (start.equals("C") && end.equals("D")){
+        System.out.println(c);
+       }
+       for (k =3; k<7;k++) {
+   
+       
+        a= route[k] +" > "+ route[k+1] + " > "+route[k+2]+": "+end+" found";
+        b= route[k] +" > "+ route[k+1]+": "+end+" found";
+        c= route[k]+": "+end+" found";
+       }
+       
+       if (start.equals("D") && end.equals("C")){
+        System.out.println(a);
+       }else if (start.equals("D") && end.equals("B")){
+        System.out.println(b);
+       }else if (start.equals("D") && end.equals("A")){
+        System.out.println(c);
+       }
+
+     
+   
+  }
+}
+E-Mail
+
+import java.util.*;
+
+public class Main {
+public static void main(String[] args) {
+Scanner scan = new Scanner(System.in);
+String email = scan.next();
+
+String firstName= email.substring(0, email.indexOf('_'));
+String lastName= email.substring(email.indexOf('_')+1,email.indexOf('@'));
+String domain= email.substring(email.indexOf('@')+1,email.indexOf('.'));
+String topLevelDomain= email.substring(email.indexOf('.')+1);
+   
+System.out.println("First name: "+firstName.substring (0,1).toUpperCase()+firstName.substring (1));
+System.out.println("Last name: "+lastName.substring (0,1).toUpperCase()+lastName.substring (1));
+System.out.println("Domain: "+domain);
+System.out.println("Top-Level Domain: "+topLevelDomain);
+ 
+
+}
+}
+
+Task 1. String Functions:
+
+Write a query to display the Last name and first three characters of the First name of all 
+
+employees in the oehr_employees table, with both columns converted to uppercase.
+
+select  Upper (LAST_NAME),  upper(substr(First_Name,0,3)) from oehr_employees
+
+Task 2. Join (INNER JOIN):
+
+Join the oehr_orders table with the oehr_customers table and display the order ID and customer FULL Name (construct this column from customer last and first names) for all orders. Sort the table by Customer's last name.
+
+select  ord.ORDER_ID, cus.CUST_FIRST_NAME||' '||cus.CUST_LAST_NAME as FULL_Name  from OEHR_CUSTOMERS cus join OEHR_ORDERS ord on cus.CUSTOMER_ID=ord.CUSTOMER_ID order by cus.CUST_LAST_NAME
+
+
+Task 3. Aggregated Functions (GROUP BY):
+
+Find the total number of orders placed by each customer in the oehr_orders table. Display customer ID and the total number of orders.
+
+-extra: Display customer ID and the total number of orders, only those that have total number of orders is greater than 3.
+
+select  CUSTOMER_ID, ORDER_TOTAL from OEHR_ORDERS where ORDER_TOTAL>3
+
+Task 4. Multi-row Functions (IN, BETWEEN):
+
+Select all employees from the oehr_employees table whose ANNUAL salary is between 50000 and 100000. NOTE: Assume, in the oehr_employees table salary column displays monthly salary values. You need to calculate the annual salary of each employee in the oehr_employees table (assuming 12 months in a year).
+
+select  FIRST_NAME || ' ' || LAST_NAME from OEHR_EMPLOYEES where salary*12 between 50000 and 100000
+
+
+Task 5. Dates (DATE Functions):
+
+From the oehr_orders table, find all orders placed in the year 2023.
+
+select * from oehr_orders where order_date > = TRUNC(ADD_MONTHS(SYSTIMESTAMP, -12), 'YEAR');
+
+
